@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(10, 3, 19);
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: wheat;
+    margin: 15px;
+    height: 40px;
+    transition: 400ms all ease-in-out ;
+}
+
+.list:hover{
+    border: solid 4px rgb(255, 15, 15);
+}
+
+.list p{
+    line-height: 30px;
+}
+
